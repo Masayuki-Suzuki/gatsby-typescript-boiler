@@ -1,0 +1,19 @@
+{
+    "presets": [
+        [
+            "@babel/preset-env",
+            {
+                "target": {
+                    "browsers": [">0.25%", "not dead"]
+                }
+            }
+        ],
+        "@babel/preset-react"
+    ],
+    "plugins": [
+        "@babel/plugin-proposal-optional-chaining",
+        "@babel/plugin-proposal-class-properties",
+        "@babel/plugin-syntax-top-level-await",
+        "@babel/plugin-proposal-nullish-coalescing-operator"
+    ]
+}
